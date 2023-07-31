@@ -1,4 +1,4 @@
-** Deep-Learning-Challenge**
+** Deep-Learning-Challenge**  
 Module 21 
 
 **Background**
@@ -72,4 +72,4 @@ accuracy higher than 75%. Use any or all of the following methods to optimize yo
 -Add or reduce the number of epochs to the training regimen.  
 
 **CENTRAL GRADER**  
-    Please see Work/deep_learning_challenge.ipynb for my code and Work/NeuralNetworkModelReport for my inlcuded report. 
+    Please see Work/deep_learning_challenge.ipynb for my code and Work/NeuralNetworkModelReport.txt for my included report. 

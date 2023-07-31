@@ -1,0 +1,65 @@
+Neural Network Model Report
+Julien Counts
+
+Overview
+
+In this project I was tasked with creating an algorithm that uses neural networks and machine learning to make predictions on whether or not an applicant will receive funding from a notional non-profit foundation in their ventures. I created a binary classifier that can predict whether applicants will be successful. 
+
+Process
+
+I read the provided CSV file with more than 34,000 organizations into Pandas. This CSV included data about these organizations and whether the foundation has provided funding.
+
+a.	Data Preprocessing
+To preprocess the data I completed the following:
+•	dropped non-essential columns EIN and NAME.
+•	determined the data points for the necessary column’s unique values.
+•	chose cutoff values of 600 and 300, respectively.
+•	converted categorical data to numeric.
+•	divide the data by target array and features arrays.
+•	created a testing and training dataset.
+•	used StandardScaler to scale the training and testing sets.
+
+The target variable of interest was IS_SUCCESSFUL.
+
+a.	Compiling, Training, and Evaluating the Model
+
+The assignment entailed attempting to achieve a target predictive accuracy greater than 75%. I made 3 attempts to obtain this objective using neural networks and machine learning but was unsuccessful. All of my results varied around 73% accuracy, just shy of the target.
+
+Attempt 1
+•	Achieved 72.7% accuracy
+•	2 layers. Chose as a simple beginning for analysis.
+1st layer: 10 neurons, relu activation function
+2nd layer: 20 neurons, relu activation function
+
+ 
+Attempt 2
+•	Achieved 72.7% accuracy
+•	3 layers. Added an additional layer with the goal of improving accuracy
+1st layer: 10 neurons, relu activation function
+2nd layer: 20 neurons, relu activation function
+3rd layer: 30 neurons, relu activation function
+ 
+Attempt 3
+•	Achieved 72.5% accuracy
+•	3 layers. Included an additional layer and also modulated the activation functions to tanh to possibly improve accuracy.
+1st layer: 10 neurons, relu activation function
+2nd layer: 20 neurons, tanh activation function
+3rd layer: 30 neurons, tanh activation function
+ 
+
+
+Summary
+
+I made 3 unsuccessful attempts to achieve the target predictive accuracy of 75%. Each subsequent attempt included attempting to tune the model by either adding more layers or changing the activation function, to no avail. In a new attempt I would use a different classification model to determine if it is more adept at determining whether applicants will be successful at achieving funds from the foundation.  
+
+
+
+
+
+
+
+
+
+
+
+
