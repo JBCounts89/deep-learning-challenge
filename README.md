@@ -1,5 +1,7 @@
-** Deep-Learning-Challenge**  
+**Deep-Learning-Challenge**  
 Module 21 
+
+Please see Work/deep_learning_challenge.ipynb for my code and Work/NeuralNetworkModelReport.txt for my included report.
 
 **Background**
 
@@ -71,5 +73,4 @@ accuracy higher than 75%. Use any or all of the following methods to optimize yo
 -Use different activation functions for the hidden layers.  
 -Add or reduce the number of epochs to the training regimen.  
 
-**CENTRAL GRADER**  
     Please see Work/deep_learning_challenge.ipynb for my code and Work/NeuralNetworkModelReport.txt for my included report. 
